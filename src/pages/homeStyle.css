@@ -1,0 +1,27 @@
+.card-holder {
+  margin: 2em 0;
+}
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height: 4em;
+  width: 64em;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-videoCall {
+  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+}
+
+.bg-toDo {
+  background: linear-gradient(70deg, #fff810 30%, rgba(0, 0, 0, 0) 30%),
+    linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
